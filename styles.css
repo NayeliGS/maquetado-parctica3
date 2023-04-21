@@ -1,0 +1,114 @@
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+    background-color:rgba(224,232,255,255);  
+    font-family:'Red Hat Display', sans-serif;    
+}
+
+*{
+    text-align: center;
+}
+
+.card{
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    height: 670px;
+    margin-top: 20px;
+    margin-left: 520px;
+    border-radius: 20px;    
+}
+
+.FirstImagen{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+p{
+    font-size: 16px;
+    color: #7c8394;
+    font-weight: 500;
+    padding: 10%;
+    margin-top: -30px;
+}
+
+.card> article .card_paragraph_black{
+    font-weight: 970;
+    color: black;
+    font-size: 30px;
+}
+
+.card> article .card_paragraph_second{
+    margin-top: -90px;
+}
+
+.AnnualPlan{
+    background-color: #eef1ff;
+    width: 400px;
+    height: 84px;
+    border-radius: 10px;
+    margin-left: 26px;
+}
+
+.icon_anualplan{
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.prices_AnualPlan{
+    margin-top: -60px;
+    margin-right: 120px;
+    color: #7c8394;
+    list-style: none;
+}
+
+.prices_AnualPlan > .price_blanck {
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+
+.link_anualplan{
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: -28px; 
+}
+
+.button_pay{
+  width: 340px;
+  height: 45px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  margin-top: 24px;
+  border: 1px solid hsl(245, 75%, 52%);
+  padding: 10px;
+  box-shadow: 5px 10px 24px rgb(136, 132, 222);
+  cursor: pointer;
+  
+}
+
+.button_pay:hover{
+    background-color:green;
+}
+
+.button_Cancel{
+    margin-top: 28px;
+    width: 340px;
+    height: 45px;
+    color: hsl(260, 5%, 46%);
+    font-weight: 800;
+    border-style: none;
+    background-color: hsl(225, 100%, 98%);
+    cursor: pointer;  
+}
+
+.button_Cancel:hover{
+    background-color:red;
+    color: #eef1ff;
+    border-radius: 10px;
+}
+
+
+
